@@ -1,17 +1,18 @@
-2d_Engine/
+```
+my-engine/
 ├── include/
 │   └── engine/
 │       ├── engine.h
-│       ├── core/              
-│       │   ├── types.h         # Entity, IDs, handles
-│       │   ├── math.h          # Vec2, Rect, helpers
-│       │   ├── arena.h         
-│       │   └── log.h           # logging
+│       ├── core/                  
+│       │   ├── types.h            # Entity, IDs, handles
+│       │   ├── math.h             # Vec2, Rect, helpers
+│       │   ├── arena.h           
+│       │   └── log.h              # logging
 │       ├── ecs/
 │       │   ├── world.h
 │       │   ├── component.h
 │       │   └── system.h
-│       ├── platform/           
+│       ├── platform/             
 │       │   ├── window.h
 │       │   ├── input.h
 │       │   ├── time.h
@@ -25,7 +26,7 @@
 │       ├── assets/
 │       │   ├── asset_manager.h
 │       │   └── image.h
-│       └── components/         
+│       └── components/            
 │           └── components.h
 │
 ├── src/
@@ -37,7 +38,7 @@
 │   │   ├── world.c
 │   │   └── system.c
 │   ├── platform/
-│   │   ├── sdl_window.c        
+│   │   ├── sdl_window.c           
 │   │   ├── sdl_input.c
 │   │   ├── sdl_time.c
 │   │   └── sdl_audio.c
@@ -51,9 +52,9 @@
 │   │   ├── asset_manager.c
 │   │   └── image.c
 │   └── engine/
-│       └── engine.c          
+│       └── engine.c              
 │
-├── game/                     
+├── game/                        
 │   ├── include/
 │   │   └── game/
 │   │       ├── game.h
@@ -72,10 +73,11 @@
 │       ├── fonts/
 │       └── sounds/
 │
-├── third_party/               
+├── third_party/                 
 ├── tests/
 │   ├── test_ecs.c
 │   └── test_math.c
 ├── main.c
 ├── Makefile
 └── README.md
+```
